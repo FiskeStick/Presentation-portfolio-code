@@ -1,0 +1,234 @@
+/* Stjernen bedtyder at den tager fat i alt i bodyen*/
+/*så her fjerner jeg alt det standard css der er på en browser*/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+html{
+  scroll-behavior: smooth;
+  background: rgb(232,53,114);
+  background: radial-gradient(circle, rgba(232,53,114,1) 0%, rgba(0,0,0,1) 100%);
+  background-attachment: fixed;
+}
+/*Header css*/
+.topbar{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background: #635E5E;
+  font-family:'Lato', bold;
+}
+
+.titel{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  float: left;
+  margin-left: 20px;
+  color: #F8EFEF;
+}
+
+.topbar ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.topbar li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topbar ul li a{
+  color: #F8EFEF;
+}
+
+/*størrelse til sektioner*/
+section{
+  width: 100%;
+  height: 1000px;
+  float: left;
+}
+
+/*forside css*/
+#forside{
+  background: url(billeder/forside-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.forsidetext{
+  margin-top: 300px;
+  margin-left: 140px;
+  font-size: 27px;
+  color: #F8EFEF;
+}
+
+.tekst-2{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/*om mig side css*/
+.ommigbox{
+  width: 50%;
+  height: 400px;
+  background-color: #635E5E;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  border-radius: 10%;
+}
+
+.ommigbox h2{
+  padding-top: 40px;
+  font-size: 32px;
+  text-align: center;
+  color: #F8EFEF;
+}
+
+.ommigbox p{
+  padding-top: 40px;
+  font-size: 24px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #F8EFEF;
+}
+
+/* mine projekter css*/
+
+.overskriftprojekter{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #F8EFEF;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #635E5E;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+  color:  #F8EFEF;
+  border-radius: 5%;
+}
+
+.projektbilled{
+  height: 150px;
+  width: auto;
+  border-radius: 10%;
+}
+
+/*projekter css*/
+#tacoapp{
+  background: url(billeder/jakostacos-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#datingb{
+  background: url(billeder/datingside-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#paradisebird{
+  background: url(billeder/birdsof-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bold{
+  background: url(billeder/bolde-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#woofwoof{
+  background: url(billeder/hunde-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bylabet{
+  background: url(billeder/bylab-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projekt{
+  margin-top: 200px;
+  margin-left: 10%;
+  background-color: #635E5E;
+  margin-right: 50%;
+  border-radius: 5%;
+}
+
+.overskrift{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #F8EFEF;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.tekst{
+  padding-top: 40px;
+  font-size: 24px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #F8EFEF;
+}
+
+.knap{
+  background: #009EE9;
+  color: #F8EFEF;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  border-radius: 6px;
+  border: 2px solid #009EE9;
+  transition: all 0.3 ease;
+  display: inline-block;
+}
+
+.projekt a:hover{
+  color: #009EE9;
+  background: none;
+}
+
+/*footer css*/
+.kontakt h2, p{
+  margin-left: 10px;
+  padding-bottom: 5px;
+  color: #F8EFEF;
+}
